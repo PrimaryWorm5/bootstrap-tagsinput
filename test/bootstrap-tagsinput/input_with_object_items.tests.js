@@ -81,7 +81,7 @@ describe("bootstrap-tagsinput", function() {
       });
     });
 	
-    testTagsInput('<input type="text" />', { itemValue: function(item) { return item.value; }, itemText: function(item) { return item.text; }, itemTitle: function(item) { return item.title; } }, function() {
+    testTagsInput('<input type="text" />', { itemValue: function(item) { return item.value; }, itemText: function(item) { return item.text; } }, function() {
 	  describe("adding an item with a title", function() {
         var item;
         beforeEach(function() {
