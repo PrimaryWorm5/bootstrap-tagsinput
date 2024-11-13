@@ -1,23 +1,23 @@
 {
-  "name": "bootstrap-tagsinput",
+  "name": "bootstrap-tagsinput-custom",
   "title": "Bootstrap Tags Input",
-  "version": "0.8.0",
-  "description": "jQuery plugin providing a Twitter Bootstrap user interface for managing tags.",
+  "version": "0.8.1",
+  "description": "jQuery plugin providing a Twitter Bootstrap user interface for managing tags with cross site scripting vulnerability fix.",
   "scripts": {
     "test": "karma start --single-run --no-auto-watch"
   },
   "main": "dist/bootstrap-tagsinput.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/timschlechter/bootstrap-tagsinput.git"
+    "url": "git://github.com/PrimaryWorm5/bootstrap-tagsinput.git"
   },
-  "author": "Tim Schlechter",
+  "author": "PrimaryWorm5",
   "contributors": [
     {
-      "name": "Luckner Jr Jean-Baptiste"
+      "name": "Tim Schlechter"
     }
   ],
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "http://timschlechter.github.io/bootstrap-tagsinput/examples/",
   "download": "http://timschlechter.github.io/bootstrap-tagsinput/build/bootstrap-tagsinput.zip",
   "keywords": [
